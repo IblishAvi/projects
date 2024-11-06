@@ -7,11 +7,10 @@ print(c)   # printing the sum
 # Remainder of a number
 num = int(input("enter a number: "))
 z = int(input("enter another number to divide first num: "))
-rem =num%z
+rem = num % z
 print(rem)
 
 # check the type of variable assigned using input () function.
-
 num1 = (input("enter a number: "))
 print("Checking the type of variable ", type(num1))
 
