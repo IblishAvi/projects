@@ -38,20 +38,34 @@
 
 name = "Avinash Kumar"
 index = name.find("Kumar")
-print(index)
+# print(index)
 
-print(name.capitalize()) # convert the string to capital case.
-print(name.lower()) # convert the string to lower case.
-print(name.__contains__("r")) # checks whether this value is present or not.
-print(name.endswith("r"))
-print(name.startswith("r"))
-print(name.count("a")) # checks  the occurrence of  provided string.
-print(name.isalnum())
-print(name.isspace())
-
-
+# print(name.capitalize()) # convert the string to capital case.
+# print(name.lower()) # convert the string to lower case.
+# print(name.__contains__("r")) # checks whether this value is present or not.
+# print(name.endswith("r"))
+# print(name.startswith("r"))
+# print(name.count("a")) # checks  the occurrence of  provided string.
+# print(name.isalnum())
+# print(name.isspace())
 
 
+# Tuple in Python
+Profile = (
+    ["Avi",24,"Male"],
+    ["Ananya",22,"Female"],
+    ["Rishu",25, "Male"]
+)
+# print(Profile)
+# count1 = Profile[2].count("25")
+# count2 = Profile[2].count(25)
+count1 = Profile[1].count("Ananya")
+print(Profile[1].index(22))
+print(Profile[1].index('Ananya'))
+print(Profile[1].index('Female'))
+
+
+# print(count1)
 
 
 
