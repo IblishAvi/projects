@@ -59,15 +59,29 @@ Profile = (
 # print(Profile)
 # count1 = Profile[2].count("25")
 # count2 = Profile[2].count(25)
-count1 = Profile[1].count("Ananya")
-print(Profile[1].index(22))
-print(Profile[1].index('Ananya'))
-print(Profile[1].index('Female'))
-
-
+# count1 = Profile[1].count("Ananya")
+# print(Profile[1].index(22))
+# print(Profile[1].index('Ananya'))
+# print(Profile[1].index('Female'))
 # print(count1)
-
-
-
-
 # Dictionary in Python.
+
+Profile ={
+    "Name": "Avinash",
+    "Age": 24,
+    "Gender": "Male",
+    "Occupation": "Job aspirant",
+    "Hobby":"Watching Movies",
+    "Qualification":"MCA"
+}
+print(Profile)
+
+name =Profile["Name"] #Access the Name value from the Dictionary Using Key
+print(name)
+Age =Profile["Age"] #Access the Age value from the Dictionary Using Key
+print(Age)
+keys = Profile.keys() # This Prints the keys of the Dic.
+value = Profile.values()
+
+print(keys)
+print(value)
