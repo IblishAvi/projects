@@ -85,3 +85,13 @@ value = Profile.values()
 
 print(keys)
 print(value)
+
+
+#sets In Python.
+
+fruits = {"mango","Apple","Guava","Pomegranate","Papaya"}
+Veg ={"Onion","Brinjal","Potato","Tomato"}
+z = fruits.union(Veg)
+print(fruits | Veg)
+print(z)
+print(len(z))
